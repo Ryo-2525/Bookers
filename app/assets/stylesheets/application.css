@@ -13,3 +13,85 @@
  *= require_tree .
  *= require_self
  */
+
+
+
+a {
+    text-decoration: none;
+}
+
+p, ol, ul, td {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+body{
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: #333;
+	font-size: 13px;
+	line-height: 13px;
+	margin: 33px;
+}
+
+.top-page{
+	width: 500px;
+    margin: 30px;
+}
+
+h2{
+	margin: 10px 0;
+}
+
+
+td{
+	padding: 7px;
+}
+
+table{
+	margin-bottom: 20px;
+}
+
+#notice{
+	color: green;
+}
+
+.error{
+	width: 450px;
+    border: 2px solid red;
+    padding: 7px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+}
+
+.error-name{
+	text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0;
+    background-color: #c00;
+    color: #fff;
+}
+
+
+div.field_with_errors {
+	padding: 2px;
+    background-color: red;
+    display: table;
+}
+
+label {
+    display: block;
+}
+
+.field{
+    margin-bottom: 10px;
+}
+
+.actions {
+    margin-bottom: 10px;
+}
